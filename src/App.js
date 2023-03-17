@@ -7,7 +7,7 @@ import About from './views/About'
 import Contact from './views/Contact' 
 import Pokemon from './views/Pokemon' 
 import PostSingle from './views/PostSingle';
-import { AuthContext } from './contexts/AuthProvider';
+import { AuthContext } from './contexts/AuthProvider'
 
 function App() {
   const { login, user, logout } = useContext(AuthContext)
